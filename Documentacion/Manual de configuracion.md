@@ -77,16 +77,18 @@ Para ejecutar la aplicion nos ubicamos en la carpeta que la contenga y utilizamo
 - Por ultimo nos pedira un nombre para generar un archivo, con el cual podremos conectarnos a la red de esta maquina virtual.
 - Luego si se desea se pueden agregar nuevos usuarios que podran acceder a la red por medio de un archivo.
 
+## ifconfig de la maquina virtual
+Para saber cual es la dieccion ip de la maquina virtual se instala lo siguiente sudo apt install net-tools para poder usar el comando sudo ifconfig:
+
+> sudo ifconfig
+
+![ifconfig](Images/ifconfig.png)
+
 ### Configuracion de la red privada
 Para realizar pruebas de conexion PING debemos de utilizar la herramienta de OpenVPN y debemos de obtener el archivo de certificacion de cliente para conectarnos con la maquina virtual que se creo anteriormente.
 
 ![Instalación 3](Images/Red_privada1.PNG)
 ![Instalación 3](Images/VPN.PNG)
-
-## ifconfig de la maquina virtual
-Para saber cual es la dieccion ip de la maquina virtual se instala lo siguiente sudo apt install net-tools para poder usar el comando sudo ifconfig:
-
-![ifconfig](Images/ifconfig.png)
 
 Para saber cual es la direccion ip de nuestra computadora utilizamos el siguiente comando en la consola de windows:
 
