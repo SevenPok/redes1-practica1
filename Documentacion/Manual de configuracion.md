@@ -10,7 +10,7 @@
 | ------ | -------  |
 ||Osman Alejandro Perez Lopez|
 ||Gerber David Colindres Monterroso|
-||Aldair Estrada Garcia|
+| 201503855 |Aldair Estrada Garcia|
 | 201512786 | Jonatan Alejandro Azurdia Aju|
 
 ## Manual de Configuración
@@ -83,8 +83,24 @@ Para realizar pruebas de conexion PING debemos de utilizar la herramienta de Ope
 ![Instalación 3](Images/Red_privada1.PNG)
 ![Instalación 3](Images/VPN.PNG)
 
+Para saber cual es la direccion ip de nuestra computadora utilizamos el siguiente comando en la consola de windows:
+
+> ipconfig
+
+![Instalación 3](Images/mi_config.jpg)
+
 Finalmente una vez que se esta conectado a la red, se puede realizar la prueba de conexion ping de forma que podamos verificar que estamos conectado con los demas ordenadores de la red. Para ello utilizamos el consola de windows utilizando el comando:
 
 > ping [direccion ip]
 
 ![Instalación 3](Images/conexion.PNG)
+
+Prueba de conexion desde la computadora de Aldair Estrada hacia las demas:
+
+![Instalación 3](Images/ping_virtual_1.jpg)
+
+![Instalación 3](Images/ping_virtual_2.jpg)
+
+![Instalación 3](Images/ping_virtual_3.jpg)
+
+![Instalación 3](Images/ping_virtual_4.jpg)
