@@ -83,6 +83,11 @@ Para realizar pruebas de conexion PING debemos de utilizar la herramienta de Ope
 ![Instalación 3](Images/Red_privada1.PNG)
 ![Instalación 3](Images/VPN.PNG)
 
+## ifconfig de la maquina virtual
+Para saber cual es la dieccion ip de la maquina virtual se instala lo siguiente sudo apt install net-tools para poder usar el comando sudo ifconfig:
+
+![ifconfig](Images/ifcongif.png)
+
 Para saber cual es la direccion ip de nuestra computadora utilizamos el siguiente comando en la consola de windows:
 
 > ipconfig
