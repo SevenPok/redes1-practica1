@@ -121,3 +121,16 @@ Prueba de conexion desde la computadora de Gerber Colindres hacia las demas:
 ![Instalación 3](Images/ping_4_to_3.png)
 
 ![Instalación 3](Images/ping_4_to_5.png)
+
+Prueba de conexion desde la computadora de Osman Perez hacia las demas:
+
+> ipconfig
+
+![ipconfig osman](Images/ipconfig.png)
+
+> ping [direccion ip]
+
+![ping Maquina virtual](Images/ping1.png)
+![ping Maquina 1](Images/ping1.png)
+![ping Maquina 2](Images/ping1.png)
+![ping Maquina 3](Images/ping1.png)
