@@ -1,4 +1,4 @@
-### Universidad de San Carlos de Guatemla
+### Universidad de San Carlos de Guatemala
 ### Facultad de Ingeniería
 ### Escuela de Ciencias y Sistemas
 ### Redes de computadores 1
@@ -104,3 +104,13 @@ Prueba de conexion desde la computadora de Aldair Estrada hacia las demas:
 ![Instalación 3](Images/ping_virtual_3.jpg)
 
 ![Instalación 3](Images/ping_virtual_4.jpg)
+
+Prueba de conexion desde la computadora de Gerber Colindres hacia las demas:
+
+![Instalación 3](Images/ping_4_to_1.png)
+
+![Instalación 3](Images/ping_4_to_2.png)
+
+![Instalación 3](Images/ping_4_to_3.png)
+
+![Instalación 3](Images/ping_4_to_5.png)
