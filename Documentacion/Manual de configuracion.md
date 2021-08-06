@@ -15,6 +15,10 @@
 
 ## Manual de Configuración
 
+### Red Fisica
+
+![Red Fisica](Images/redfisica.png)
+
 ### Creación de maquina virtual
 Para crear una nueva instancia en la plataforma es necesario dirigirse al apartado de "**Compute Engine**" y seleccionar la opcion "**Crear instancia**".
 
@@ -77,7 +81,7 @@ Para ejecutar la aplicion nos ubicamos en la carpeta que la contenga y utilizamo
 - Por ultimo nos pedira un nombre para generar un archivo, con el cual podremos conectarnos a la red de esta maquina virtual.
 - Luego si se desea se pueden agregar nuevos usuarios que podran acceder a la red por medio de un archivo.
 
-## ifconfig de la maquina virtual
+### ifconfig de la maquina virtual
 Para saber cual es la dieccion ip de la maquina virtual se instala lo siguiente sudo apt install net-tools para poder usar el comando sudo ifconfig:
 
 > sudo ifconfig
