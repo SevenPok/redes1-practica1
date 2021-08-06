@@ -131,6 +131,9 @@ Prueba de conexion desde la computadora de Osman Perez hacia las demas:
 > ping [direccion ip]
 
 ![ping Maquina virtual](Images/ping1.png)
-![ping Maquina 1](Images/ping1.png)
-![ping Maquina 2](Images/ping1.png)
-![ping Maquina 3](Images/ping1.png)
+
+![ping Maquina 1](Images/ping2.png)
+
+![ping Maquina 2](Images/ping3.png)
+
+![ping Maquina 3](Images/ping4.png)
