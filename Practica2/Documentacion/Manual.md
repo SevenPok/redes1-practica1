@@ -25,7 +25,7 @@
 
 #### Topología 1B
 
-![Topología 1B](Images/Topologia_1B.jpg)
+![Topología 1B](Images/Topologia_1B.JPG)
 
 #### Topología 1C
 
@@ -44,7 +44,7 @@ ip 192.168.16.15 255.255.255.0 192.168.16.1
 
 ### Cliente Contabilidad 1
 
-![Cliente Contabilidad 1](Images/configuracion_Cliente_Contabilidad1.JPG)
+![Cliente Contabilidad 1](Images/configuracion_Cliente_Contabilidad1.jpg)
 
 ### Cliente Informatica 1
 
@@ -54,7 +54,7 @@ Para configurar en ubuntu la ip, entramos a configuracion de red, luego localiza
 
 ### Cliente Ventas 2
 
-![Cliente Ventas 2](Images/configuracion_Cliente_Informatica2.JPG)
+![Cliente Ventas 2](Images/configuracion_Cliente_Ventas2.JPG)
 
 ### Cliente Contabilidad 2
 ### Cliente Informatica 2
