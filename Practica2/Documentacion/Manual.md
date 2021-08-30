@@ -31,6 +31,8 @@
 
 #### Topología 2
 
+![Topología 2](Images/Topologia_2.PNG)
+
 ## Configuración de las VPCs
 
 El comando que se debe de escribir en la VPC para configurar su ip es
@@ -62,7 +64,26 @@ Para configurar en ubuntu la ip, entramos a configuracion de red, luego localiza
 ![Cliente Informatica 2](Images/configuracion_Cliente_Informatica2.png)
 
 ## Instalación y Configuración de los Servidores Web
+Para los servidores web se utilizo nodeJS para crear un servidor y alojar una pagina web, para instalar esta herramienta, primero se deben de actualizar los paquetes disponibles, para ello utilizamos el comando:
 
+> sudo apt-get update
+
+Posteriormente se instala nodejs, utilizando el comando:
+
+> sudo apt install nodejs
+
+finalmente se debe de instalar el gesto de paquetes por defecto para Node.js y ejecutarlo con JavaScript, para ello se utiliza el comando:
+
+> sudo apt install npm
+
+Servidor web Informatica
+![Configuración del servidor web informatica](Images/Servidor_informatica.PNG)
+
+Servidor web Ventas
+![Configuración del servidor web ventas](Images/Servidor_contabilidad.PNG)
+
+Servidor web Contabilidad
+![Configuración del servidor web contabilidad](Images/Servidor_ventas.PNG)
 
 ## Pings entre clientes y entre los servidores de los departamentos correspondientes
 
@@ -87,8 +108,10 @@ El departamento de ventas esta utilizando la VLAN 20.
 ![Cliente Ventas 2 al servidor](Images/ClienteVentas2_ServidorVentas.JPG)
 
 #### Servidor Web al Cliente 1
+![Servidor web a cliente ventas 1](Images/ping_servidor_ventas1.PNG)
 
 #### Servidor Web al Cliente 2
+![Servidor web a cliente ventas 2](Images/ping_servidor_ventas2.PNG)
 
 ### Departamento Contabilidad
 
@@ -107,8 +130,10 @@ El departamento de contabilidad esta utilizando la VLAN 30.
 #### Cliente 2 al Servidor Web
 
 #### Servidor Web al Cliente 1
+![Servidor web a cliente contabilidad](Images/ping_servidor_contabilidad1.PNG)
 
 #### Servidor Web al Cliente 2
+![Servidor web a cliente contabilidad](Images/ping_servidor_contabilidad2.PNG)
 
 ### Departamento Informatica
 
@@ -127,14 +152,17 @@ El departamento de informatica esta utilizando la VLAN 10.
 ![Cliente Informatica 2 al servidor](Images/ping-servidor_informatica.png)
 
 #### Servidor Web al Cliente 1
+![Servidor web a cliente 1](Images/ping_servidor_cliente1.PNG)
 
 #### Servidor Web al Cliente 2
+![Servidor web a cliente 1](Images/ping_servidor_cliente2.PNG)
 
 ## Visualización de la página web desde el Host Virtual Cliente
 
 ### Pagina Ventas
 
 ### Pagina Contabilidad
+![Pagina Contabilidad](Images/Pagina_Contabilidad.PNG)
 
 ### Pagina Informatica
 ![Pagina Informatica](Images/pagina_informatica.png)
