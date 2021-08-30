@@ -25,6 +25,8 @@
 
 #### Topología 1B
 
+![Topología 1B](Images/Topologia_1B.jpg)
+
 #### Topología 1C
 
 #### Topología 2
@@ -40,8 +42,9 @@ ip 192.168.16.15 255.255.255.0 192.168.16.1
 
 ![Cliente Ventas 1](Images/configuracion_Cliente_Ventas1.png)
 
-
 ### Cliente Contabilidad 1
+
+![Cliente Contabilidad 1](Images/configuracion_Cliente_Contabilidad1.jpg)
 
 ### Cliente Informatica 1
 
@@ -50,8 +53,12 @@ ip 192.168.16.15 255.255.255.0 192.168.16.1
 Para configurar en ubuntu la ip, entramos a configuracion de red, luego localizamos en adaptador de red que vamos a configurar, entramos a la configuracion del adaptador y nos vamos a la pestaña de ipv4, le damos en manual y configuramos su ip.
 
 ### Cliente Ventas 2
+
+![Cliente Ventas 2](Images/configuracion_Cliente_Informatica2.jpg)
+
 ### Cliente Contabilidad 2
 ### Cliente Informatica 2
+
 ![Cliente Informatica 2](Images/configuracion_Cliente_Informatica2.png)
 
 ## Instalación y Configuración de los Servidores Web
@@ -67,12 +74,17 @@ El departamento de ventas esta utilizando la VLAN 20.
 
 ![Cliente Ventas 1 al 2](Images/ping_cliente_ventas2.png)
 
-#### Cleinte 1 al Servidor Web
+#### Cliente 1 al Servidor Web
+
 ![Cliente Ventas 1 al servidor](Images/ping_servidor_ventas.png)
 
 #### Cliente 2 al Cliente 1
 
+![Cliente Ventas 2 al 1](Images/Cliente_Ventas1_Ventas2.jpg)
+
 #### Cliente 2 al Servidor Web
+
+![Cliente Ventas 2 al servidor](Images/ClienteVentas2_ServidorVentas.jpg)
 
 #### Servidor Web al Cliente 1
 
@@ -84,7 +96,11 @@ El departamento de contabilidad esta utilizando la VLAN 30.
 
 #### Cliente 1 al Cliente 2
 
-#### Cleinte 1 al Servidor Web
+![Cliente Contabilidad 1 al 2](Images/Cliente_Contabilidad1_Contabilidad2.jpg)
+
+#### Cliente 1 al Servidor Web
+
+![Cliente Contabilidad 1 al servidor](Images/ClienteContabilidad1_ServidorContabilidad.jpg)
 
 #### Cliente 2 al Cliente 1
 
