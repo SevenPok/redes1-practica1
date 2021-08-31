@@ -52,7 +52,7 @@ ip 192.168.16.15 255.255.255.0 192.168.16.1
 
 ### Cliente Informatica 1
 
-![Cliente Informatica 1](Images/configuracion_informatica1.png)
+![Cliente Informatica 1](Images/Configuracion_informatica1.png)
 
 ## Configuración de las máquinas virtuales
 
@@ -64,7 +64,7 @@ Para configurar en ubuntu la ip, entramos a configuracion de red, luego localiza
 
 ### Cliente Contabilidad 2
 
-![Cliente Contabilidad 2](Images/configuracion_contabilidad2.png)
+![Cliente Contabilidad 2](Images/Configuracion_contabilidad2.png)
 
 ### Cliente Informatica 2
 
@@ -152,7 +152,7 @@ El departamento de informatica esta utilizando la VLAN 10.
 
 #### Cliente 1 al Cliente 2
 
-![Cliente Informatica 1 al 2](Images/ping_cliente_informatica2.png)
+![Cliente Informatica 1 al 2](Images/ping_Cliente_informatica2.png)
 
 #### Cliente 1 al Servidor Web
 
@@ -180,7 +180,7 @@ El departamento de informatica esta utilizando la VLAN 10.
 
 ### Pagina Contabilidad
 
-![Pagina Contabilidad](Images/Pagina_web_Contabilidad.PNG)
+![Pagina Contabilidad](Images/Pagina_web_Contabilidad.png)
 
 ### Pagina Informatica
 ![Pagina Informatica](Images/pagina_informatica.png)
