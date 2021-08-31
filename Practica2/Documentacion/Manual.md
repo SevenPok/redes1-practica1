@@ -29,6 +29,8 @@
 
 #### Topología 1C
 
+![Topología 1C](Images/Topologia_1C.png)
+
 #### Topología 2
 
 ![Topología 2](Images/Topologia_2.PNG)
@@ -50,6 +52,8 @@ ip 192.168.16.15 255.255.255.0 192.168.16.1
 
 ### Cliente Informatica 1
 
+![Cliente Informatica 1](Images/configuracion_informatica1.png)
+
 ## Configuración de las máquinas virtuales
 
 Para configurar en ubuntu la ip, entramos a configuracion de red, luego localizamos en adaptador de red que vamos a configurar, entramos a la configuracion del adaptador y nos vamos a la pestaña de ipv4, le damos en manual y configuramos su ip.
@@ -59,6 +63,9 @@ Para configurar en ubuntu la ip, entramos a configuracion de red, luego localiza
 ![Cliente Ventas 2](Images/configuracion_Cliente_Ventas2.JPG)
 
 ### Cliente Contabilidad 2
+
+![Cliente Contabilidad 2](Images/configuracion_contabilidad2.png)
+
 ### Cliente Informatica 2
 
 ![Cliente Informatica 2](Images/configuracion_Cliente_Informatica2.png)
@@ -127,7 +134,11 @@ El departamento de contabilidad esta utilizando la VLAN 30.
 
 #### Cliente 2 al Cliente 1
 
+![Cliente Contabilidad 2 al 1](Images/ping_cliente_contabilidad1.png)
+
 #### Cliente 2 al Servidor Web
+
+![Cliente Contabilidad 2 al servidor](Images/ping_cliente_servidor_contabilidad.png)
 
 #### Servidor Web al Cliente 1
 ![Servidor web a cliente contabilidad](Images/ping_servidor_contabilidad1.PNG)
@@ -141,7 +152,11 @@ El departamento de informatica esta utilizando la VLAN 10.
 
 #### Cliente 1 al Cliente 2
 
-#### Cleinte 1 al Servidor Web
+![Cliente Informatica 1 al 2](Images/ping_cliente_informatica2.png)
+
+#### Cliente 1 al Servidor Web
+
+![Cliente Informatica 1 al servidor](Images/ping_cliente_servidor_informatica.png)
 
 #### Cliente 2 al Cliente 1
 
@@ -161,8 +176,11 @@ El departamento de informatica esta utilizando la VLAN 10.
 
 ### Pagina Ventas
 
+![Pagina Ventas](Images/Pagina_Contabilidad.PNG)
+
 ### Pagina Contabilidad
-![Pagina Contabilidad](Images/Pagina_Contabilidad.PNG)
+
+![Pagina Contabilidad](Images/Pagina_web_Contabilidad.PNG)
 
 ### Pagina Informatica
 ![Pagina Informatica](Images/pagina_informatica.png)
