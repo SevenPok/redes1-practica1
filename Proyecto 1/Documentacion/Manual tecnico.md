@@ -33,7 +33,7 @@
 
 #### Topología 3
 
-![]()
+![Topologia 3](./Imagenes/Topologia3.jpg)
 
 ### Requerimientos para ejecutar el archivo
 
@@ -44,6 +44,17 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 - Proveedor de Nube
 
 ### Carga de archivos de configuración
+
+Archivos de configuración de switch utilizados en la topología 3:
+
+![Archivo 3-1](./Imagenes/Topo3_Switch1.jpg)
+
+![Archivo 3-2](./Imagenes/Topo3_Switch2.jpg)
+
+![Archivo 3-3](./Imagenes/Topo3_Switch3.jpg)
+
+![Archivo 3-4](./Imagenes/Topo3_Switch4.jpg)
+
 
 
 ### Comandos Utilizados
