@@ -29,7 +29,7 @@
 
 #### Topología 2
 
-![Topologia 3](./Imagenes/Topologia2.png)
+![Topologia 2](./Imagenes/Topologia2.png)
 
 #### Topología 3
 
