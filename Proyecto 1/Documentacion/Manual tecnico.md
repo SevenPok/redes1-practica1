@@ -25,7 +25,7 @@
 
 #### Topología 1
 
-![]()
+![Topologia 1](./Imagenes/Topologia1.png)
 
 #### Topología 2
 
