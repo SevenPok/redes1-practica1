@@ -83,27 +83,45 @@ Ver los puertos y ethernet channel del switch que se estan utilizando
 
 ### Topologia 3
 
-Aqui va la topologia
+![Puertos](Images/Topologia3.png)
 
 #### Pings
 
-Ping #ip
+![Pings PC3](Images/Ping-PC-3.png)
+
+![Pings PC4](Images/Ping-PC-4.png)
 
 #### sh eth port
 
-Ver configuracion de los ethernet channel
+![sh ip int br 1](Images/sh1-eth-port.png)
+
+![sh ip int br 2](Images/sh2-eth-port.png)
+
+![sh ip int br 3](Images/sh3-eth-port.png)
 
 #### sh eth su
 
-Ver el resumen de los ethernet channel
+![sh eth su 1](Images/sh1-eth-su.png)
+
+![sh eth su 2](Images/sh2-eth-su.png)
+
+![sh eth su 3](Images/sh3-eth-su.png)
 
 #### sh int tr
 
-Ver los puertos que estan en modo truncal
+![sh int tr 1](Images/sh1-int-tr.png)
+
+![sh int tr 2](Images/sh2-int-tr.png)
+
+![sh int tr 3](Images/sh3-int-tr.png)
 
 #### sh ip int br
 
-Ver los puertos y ethernet channel del switch que se estan utilizando
+![sh ip int br 1](Images/sh1-ip-int-br.png)
+
+![sh ip int br 2](Images/sh2-ip-int-br.png)
+
+![sh ip int br 3](Images/sh3-ip-int-br.png)
 
 
 ### Topologia 4
