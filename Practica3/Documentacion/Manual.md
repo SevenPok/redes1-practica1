@@ -2,7 +2,7 @@
 ### Facultad de Ingeniería
 ### Escuela de Ciencias y Sistemas
 ### Redes de computadores 1
-# Practica 1
+# Practica 3
 
 ## Integrantes
 | Carnet | Nombre |
