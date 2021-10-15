@@ -20,27 +20,27 @@
 
 ### Topologia 1
 
-Aqui va la topologia
+![Topología 1](Images/topologia1.PNG)
 
 #### Pings
 
-Ping #ip
+![Pings Topologia 1](Images/ping_t1.PNG)
 
 #### sh eth port
 
-Ver configuracion de los ethernet channel
+![Ethernet channel](Images/switch.PNG)
 
 #### sh eth su
 
-Ver el resumen de los ethernet channel
+![Resumen de puertos](Images/switch_sh_eth_su.PNG)
 
 #### sh int tr
 
-Ver los puertos que estan en modo truncal
+![Puertos en modo truncal](Images/switch_sh_int_tr.PNG)
 
 #### sh ip int br
 
-Ver los puertos y ethernet channel del switch que se estan utilizando
+![Puertos utilizados](Images/switch_sh_ip_int_br.PNG)
 
 
 ### Topologia 2
