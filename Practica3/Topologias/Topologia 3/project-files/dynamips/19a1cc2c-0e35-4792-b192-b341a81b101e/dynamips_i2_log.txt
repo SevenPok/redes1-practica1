@@ -1,0 +1,48 @@
+Oct 11 17:05:33.144 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 11 17:05:33.144 HYPERVISOR: Started on IP = localhost, TCP port = 51230.
+Oct 11 17:05:33.635 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 17:05:33.635 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Proyectos\Redes\Practica 3\Topologia 3\project-files\dynamips 
+Oct 11 17:05:33.635 GENERAL: working_dir=D:\Proyectos\Redes\Practica 3\Topologia 3\project-files\dynamips
+Oct 11 17:05:33.636 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Proyectos\Redes\Practica 3\Topologia 3\project-files\dynamips\2b9d96d1-02b3-4ee0-babd-26546e7db306 
+Oct 11 17:05:33.636 GENERAL: working_dir=D:\Proyectos\Redes\Practica 3\Topologia 3\project-files\dynamips\2b9d96d1-02b3-4ee0-babd-26546e7db306
+Oct 11 17:05:33.637 HYPERVISOR: exec_cmd: vm create ESW3 3 c3725 
+Oct 11 17:05:33.656 VM: VM ESW3 created.
+Oct 11 17:05:33.657 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW3 5002 
+Oct 11 17:05:33.657 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW3 
+Oct 11 17:05:33.657 HYPERVISOR: exec_cmd: vm set_disk0 ESW3 1 
+Oct 11 17:05:33.658 HYPERVISOR: exec_cmd: vm set_exec_area ESW3 64 
+Oct 11 17:05:33.659 HYPERVISOR: exec_cmd: vm set_ios ESW3 C:/Users/david/GNS3/images/IOS/c3725-adventerprisek9-mz124-15 (2).image 
+Oct 11 17:05:33.660 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW3 c203.33d8.0000 
+Oct 11 17:05:33.660 HYPERVISOR: exec_cmd: vm set_nvram ESW3 256 
+Oct 11 17:05:33.661 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:33.661 HYPERVISOR: exec_cmd: vm slot_add_binding ESW3 1 0 NM-16ESW 
+Oct 11 17:05:35.758 HYPERVISOR: exec_cmd: nio create_udp udp-f980ecc4-f09b-4d31-b9ac-432de8186a30 2004 127.0.0.1 2005 
+Oct 11 17:05:36.030 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 0 udp-f980ecc4-f09b-4d31-b9ac-432de8186a30 
+Oct 11 17:05:36.030 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:36.097 HYPERVISOR: exec_cmd: nio create_udp udp-e1fed9fc-3a4c-4a11-9152-93670ec785b5 2010 127.0.0.1 2011 
+Oct 11 17:05:36.102 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 1 udp-e1fed9fc-3a4c-4a11-9152-93670ec785b5 
+Oct 11 17:05:36.102 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:36.161 HYPERVISOR: exec_cmd: nio create_udp udp-8378b6cf-66b7-487d-aefb-331a41bfed6b 2016 127.0.0.1 2017 
+Oct 11 17:05:36.164 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 2 udp-8378b6cf-66b7-487d-aefb-331a41bfed6b 
+Oct 11 17:05:36.164 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:36.211 HYPERVISOR: exec_cmd: nio create_udp udp-ab880f4f-e28a-4672-befe-c1927a65d397 2020 127.0.0.1 2021 
+Oct 11 17:05:36.214 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 3 udp-ab880f4f-e28a-4672-befe-c1927a65d397 
+Oct 11 17:05:36.214 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:36.802 HYPERVISOR: exec_cmd: nio create_udp udp-b8fb42be-31d9-43fa-8397-f3682054ef6e 2048 127.0.0.1 2050 
+Oct 11 17:05:36.805 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 4 udp-b8fb42be-31d9-43fa-8397-f3682054ef6e 
+Oct 11 17:05:36.805 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:36.867 HYPERVISOR: exec_cmd: nio create_udp udp-d97a76ab-de75-4cff-8821-96f4f3cec741 2055 127.0.0.1 2056 
+Oct 11 17:05:36.869 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 5 udp-d97a76ab-de75-4cff-8821-96f4f3cec741 
+Oct 11 17:05:36.870 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 17:05:36.931 HYPERVISOR: exec_cmd: nio create_udp udp-e37d05d4-7e4c-4adb-b5a0-61caf0299927 2061 127.0.0.1 2062 
+Oct 11 17:05:36.934 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 6 udp-e37d05d4-7e4c-4adb-b5a0-61caf0299927 
+Oct 11 17:05:36.935 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 18:01:48.545 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 18:01:48.547 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Oct 11 18:01:48.728 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Oct 11 18:01:48.729 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Oct 11 18:01:48.730 HYPERVISOR: exec_cmd: vm delete ESW3 
+Oct 11 18:01:48.730 VM: VM ESW3 destroyed.
+Oct 11 18:01:48.746 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 11 18:01:49.239 HYPERVISOR: Stopped.
+Oct 11 18:01:49.239 GENERAL: reset done.
