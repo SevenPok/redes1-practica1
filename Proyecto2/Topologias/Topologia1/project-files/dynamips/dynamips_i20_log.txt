@@ -1,0 +1,23 @@
+Nov 07 22:13:12.529 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 22:13:12.530 HYPERVISOR: Started on IP = localhost, TCP port = 64593.
+Nov 07 22:13:13.009 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 22:13:13.010 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips 
+Nov 07 22:13:13.010 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips
+Nov 07 22:13:13.010 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\811aad83-79b4-4f8d-93d1-ac21c4f2acfc 
+Nov 07 22:13:13.011 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\811aad83-79b4-4f8d-93d1-ac21c4f2acfc
+Nov 07 22:13:13.011 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Nov 07 22:13:13.013 VM: VM R2 created.
+Nov 07 22:13:13.014 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5003 
+Nov 07 22:13:13.014 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Nov 07 22:13:13.015 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:13.016 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Nov 07 22:13:13.017 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Nov 07 22:13:13.017 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Nov 07 22:13:13.082 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:22.021 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 07 22:13:22.022 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 07 22:13:22.022 HYPERVISOR: exec_cmd: vm delete R2 
+Nov 07 22:13:22.023 VM: VM R2 destroyed.
+Nov 07 22:13:22.024 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 22:13:22.189 HYPERVISOR: Stopped.
+Nov 07 22:13:22.189 GENERAL: reset done.

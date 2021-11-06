@@ -1,0 +1,25 @@
+Nov 07 21:17:06.058 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 21:17:06.059 HYPERVISOR: Started on IP = localhost, TCP port = 54832.
+Nov 07 21:17:06.552 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 21:17:06.553 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips 
+Nov 07 21:17:06.554 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips
+Nov 07 21:17:06.555 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\a0a83d29-81b1-4e72-b5fb-8392f1c28a20 
+Nov 07 21:17:06.555 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\a0a83d29-81b1-4e72-b5fb-8392f1c28a20
+Nov 07 21:17:06.556 HYPERVISOR: exec_cmd: vm create R2 2 c3600 
+Nov 07 21:17:06.560 VM: VM R2 created.
+Nov 07 21:17:06.561 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5003 
+Nov 07 21:17:06.562 HYPERVISOR: exec_cmd: c3600 get_mac_addr R2 
+Nov 07 21:17:06.563 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/l4kz4/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 07 21:17:06.564 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Nov 07 21:17:06.566 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Nov 07 21:17:06.567 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Nov 07 21:17:06.657 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/l4kz4/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 07 21:17:13.423 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/l4kz4/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 07 21:17:15.908 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/l4kz4/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 07 21:17:29.366 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 07 21:17:29.367 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 07 21:17:29.368 HYPERVISOR: exec_cmd: vm delete R2 
+Nov 07 21:17:29.368 VM: VM R2 destroyed.
+Nov 07 21:17:29.370 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 21:17:29.472 HYPERVISOR: Stopped.
+Nov 07 21:17:29.472 GENERAL: reset done.

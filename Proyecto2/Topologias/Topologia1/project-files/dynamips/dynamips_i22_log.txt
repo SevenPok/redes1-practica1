@@ -1,0 +1,29 @@
+Nov 07 22:13:15.229 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 22:13:15.230 HYPERVISOR: Started on IP = localhost, TCP port = 64607.
+Nov 07 22:13:15.717 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 22:13:15.717 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips 
+Nov 07 22:13:15.717 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips
+Nov 07 22:13:15.718 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\b54ce552-f060-4140-836d-82f37c7d9b6d 
+Nov 07 22:13:15.718 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\b54ce552-f060-4140-836d-82f37c7d9b6d
+Nov 07 22:13:15.719 HYPERVISOR: exec_cmd: vm create R4 4 c3725 
+Nov 07 22:13:15.721 VM: VM R4 created.
+Nov 07 22:13:15.721 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5005 
+Nov 07 22:13:15.722 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Nov 07 22:13:15.723 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:15.723 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Nov 07 22:13:15.724 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Nov 07 22:13:15.724 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Nov 07 22:13:15.805 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:27.753 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:35.572 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:14:05.674 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 07 22:14:05.675 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-16ESW 
+Nov 07 22:14:05.675 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 07 22:14:05.676 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-4T 
+Nov 07 22:14:41.834 HYPERVISOR: exec_cmd: nio create_udp udp-ae498283-e168-4980-a5c6-d6e8bb0630ec 10010 127.0.0.1 10011 
+Nov 07 22:14:42.083 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-ae498283-e168-4980-a5c6-d6e8bb0630ec 
+Nov 07 22:14:42.084 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 07 22:14:53.993 HYPERVISOR: exec_cmd: nio create_udp udp-7d64b8c6-ad2c-4351-9e75-f5ec4f912b55 10018 127.0.0.1 10019 
+Nov 07 22:14:53.995 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 1 udp-7d64b8c6-ad2c-4351-9e75-f5ec4f912b55 
+Nov 07 22:14:53.996 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 07 22:15:49.820 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 

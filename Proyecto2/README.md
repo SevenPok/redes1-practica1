@@ -25,13 +25,6 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 
 ![Topologia 1](./images/Topologia1.jpeg)
 
-## Configuracion vtp
-
-
-
-## Configuracion vlan
-
-
 ## Subnetting
 
 ![Subnetting 1](./images/Subnetting1.jpeg)
@@ -54,15 +47,7 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 
 # Topología 2
 
-![Topologia 2]()
-
-## Configuracion vtp
-
-![vtp 2]()
-
-## Configuracion vlan
-
-
+![Topologia 2](./images/Topologia2.jpeg)
 
 ## Subnetting
 
@@ -72,46 +57,27 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 ---
 ### Ping Conta 1 a Servidor Conta
 
-![Ping conta 1 a server]()
+![Ping conta 1 a server](./images/tp2_contabilidad_a_servidor.jpeg)
 
 ### Ping Recursos Humanos 1 a Servidor Recursos Humanos
 
-![Ping recursos humanos 1 a server]()
-
-
-### Ping Informatica 1 a Informatica 2
-
-![Ping informatica 1 a 2]()
-
-### Ping Informatica 2 a Informatica 1
-
-![Ping informatica 2 a 1]()
-
-### Ping Ventas 1 a Ventas 2
-
-![Ping ventas 1 a 2]()
-
-### Ping Ventas 2 a Ventas 1
-
-![Ping ventas 2 a 1]()
+![Ping recursos humanos 1 a server](./images/tp2_rrhh_a_servidor.jpeg)
 
 ### Ping Ventas 1 a Servidor web
 
-![Ping ventas 1 a servidor]()
+![Ping ventas 1 a servidor](./images/tp2_ventas_a_servidor.jpeg)
 
-### Ping Ventas 2 a Servidor web
+### Ping Informatica a Servidor DB
 
-![Ping ventas 2 a servidor]()
+![Ping ventas 2 a servidor](./images/tp2_informatica_a_servidor.jpeg)
 
 # Topología 3
 
 ![Topologia 3](./images/Topologia3.jpeg)
 
-## Configuracion vtp
+## Configuracion de VLAN
 
-## Configuracion vlan
-
-![vtp 3]()
+![vlan-topo2](./images/vlan-topo2.jpg)
 
 ## Subnetting
 
@@ -119,65 +85,14 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 
 ## Pings
 ---
-### Ping admin 1 a admin 2
+### Ping Servidor Recursos Humanos
 
-![Ping admin 1 a 2]()
+![Ping Servidor RH a RH](./images/Ping_BD_Informatica.jpg)
 
-### Ping admin 2 a admin 1
+### Ping Servidor DB a Infomatica
 
-![Ping admin 2 a 1]()
+![Ping Server DB a informatica](./images/Ping_server_rh_rh.jpg)
 
-### Ping admin 1 a Servidor Conta
-
-![Ping admin 1 a servidor conta]()
-
-### Ping admin 1 a Servidor Recursos Humanos
-
-![Ping admin 1 a servidor Recursos Humanos]()
-
-### Ping admin 1 a Servidor web
-
-![Ping admin 1 a servidor web]()
-
-### Ping admin 1 a Servidor Base de datos
-
-![Ping admin 1 a servidor Base de datos]()
-
-### Ping admin 2 a Servidor Conta
-
-![Ping admin 2 a servidor conta]()
-
-### Ping admin 2 a Servidor Recursos Humanos
-
-![Ping admin 2 a servidor Recursos Humanos]()
-
-### Ping admin 2 a Servidor web
-
-![Ping admin 2 a servidor web]()
-
-### Ping admin 2 a Servidor Base de datos
-
-![Ping admin 2 a servidor Base de datos]()
-
-### Ping Servidor Conta a Conta 1
-
-![Ping server a conta 1]()
-
-### Ping Servidor web a Ventas 1
-
-![Ping servidor a ventas 1]()
-
-### Ping Servidor web a Ventas 2
-
-![Ping servidor a ventas 2]()
-
-### Ping Servidor web a Admin 1
-
-![Ping servidor a admin 1]()
-
-### Ping Servidor web a Admin 2
-
-![Ping servidor a admin 2]()
 
 # Comandos Utilizados
 ## Ver configuracion de interfacez

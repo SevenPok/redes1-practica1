@@ -1,0 +1,32 @@
+Nov 07 20:41:14.608 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 20:41:14.609 HYPERVISOR: Started on IP = localhost, TCP port = 56781.
+Nov 07 20:41:14.613 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 20:41:14.613 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jonat\GNS3\projects\Proyectof\project-files\dynamips 
+Nov 07 20:41:14.613 GENERAL: working_dir=C:\Users\jonat\GNS3\projects\Proyectof\project-files\dynamips
+Nov 07 20:41:14.614 HYPERVISOR: exec_cmd: ethsw create Switch5 
+Nov 07 20:41:16.488 HYPERVISOR: exec_cmd: nio create_udp udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 10004 127.0.0.1 10005 
+Nov 07 20:41:16.490 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 
+Nov 07 20:41:16.511 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 20:45:53.032 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 20:52:22.377 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 20:52:23.427 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 20:52:27.565 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 21:00:41.088 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 21:00:47.174 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 21:00:47.994 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 21:00:59.796 HYPERVISOR: exec_cmd: nio create_udp udp-37f986a6-2770-4e44-8080-1beac7d25cf1 10090 127.0.0.1 10091 
+Nov 07 21:00:59.797 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-37f986a6-2770-4e44-8080-1beac7d25cf1 
+Nov 07 21:00:59.828 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-37f986a6-2770-4e44-8080-1beac7d25cf1 1 
+Nov 07 21:01:03.354 HYPERVISOR: exec_cmd: nio create_udp udp-01ebddf2-bd25-49c4-8d56-e33e1c724580 10092 127.0.0.1 10093 
+Nov 07 21:01:03.355 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-01ebddf2-bd25-49c4-8d56-e33e1c724580 
+Nov 07 21:01:03.361 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-01ebddf2-bd25-49c4-8d56-e33e1c724580 1 
+Nov 07 21:13:27.051 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-37f986a6-2770-4e44-8080-1beac7d25cf1 1 
+Nov 07 21:13:27.052 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-01ebddf2-bd25-49c4-8d56-e33e1c724580 1 
+Nov 07 21:13:27.052 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 21:54:09.592 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-37f986a6-2770-4e44-8080-1beac7d25cf1 30 
+Nov 07 21:54:09.593 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-01ebddf2-bd25-49c4-8d56-e33e1c724580 40 
+Nov 07 21:54:09.593 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch5 udp-4e845369-8bfd-46ba-9ee1-df830c9b0285 1 
+Nov 07 22:58:35.015 HYPERVISOR: exec_cmd: ethsw delete Switch5 
+Nov 07 22:58:35.094 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 22:58:35.126 HYPERVISOR: Stopped.
+Nov 07 22:58:35.126 GENERAL: reset done.

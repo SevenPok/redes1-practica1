@@ -1,0 +1,2 @@
+set pcname SRV_CONTA
+ip 192.168.56.22 192.168.56.21 30

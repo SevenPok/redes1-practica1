@@ -1,0 +1,40 @@
+Nov 08 01:13:58.519 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 08 01:13:58.520 HYPERVISOR: Started on IP = localhost, TCP port = 53775.
+Nov 08 01:13:59.013 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 08 01:13:59.013 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips 
+Nov 08 01:13:59.014 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips
+Nov 08 01:13:59.014 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\f9b16a24-6f45-4aa3-8edd-8bcd8ebb20d9 
+Nov 08 01:13:59.015 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\f9b16a24-6f45-4aa3-8edd-8bcd8ebb20d9
+Nov 08 01:13:59.015 HYPERVISOR: exec_cmd: vm create R3 4 c3600 
+Nov 08 01:13:59.018 VM: VM R3 created.
+Nov 08 01:13:59.019 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5005 
+Nov 08 01:13:59.019 HYPERVISOR: exec_cmd: c3600 get_mac_addr R3 
+Nov 08 01:13:59.020 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Nov 08 01:13:59.021 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/l4kz4/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Nov 08 01:13:59.022 HYPERVISOR: exec_cmd: c3600 set_mac_addr R3 cc04.1868.0000 
+Nov 08 01:13:59.023 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Nov 08 01:13:59.023 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Nov 08 01:13:59.024 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:13:59.024 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 NM-1FE-TX 
+Nov 08 01:13:59.025 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:13:59.026 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Nov 08 01:13:59.026 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:13:59.027 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 NM-1FE-TX 
+Nov 08 01:14:03.485 HYPERVISOR: exec_cmd: nio create_udp udp-b6ad4503-ee99-4c8f-af1c-67432894adbc 10010 127.0.0.1 10011 
+Nov 08 01:14:03.750 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-b6ad4503-ee99-4c8f-af1c-67432894adbc 
+Nov 08 01:14:03.751 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:14:03.828 HYPERVISOR: exec_cmd: nio create_udp udp-3c97e588-7961-4f1e-95a2-4210ab22e59c 10014 127.0.0.1 10015 
+Nov 08 01:14:03.831 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-3c97e588-7961-4f1e-95a2-4210ab22e59c 
+Nov 08 01:14:03.832 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:15:06.314 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Nov 08 01:15:06.315 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Nov 08 01:15:06.316 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:15:06.317 HYPERVISOR: exec_cmd: vm set_config R3 configs\i4_startup-config.cfg configs\i4_private-config.cfg 
+Nov 08 01:15:06.317 HYPERVISOR: exec_cmd: vm start R3 
+Nov 08 01:15:36.690 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 08 01:45:34.927 HYPERVISOR: exec_cmd: nio create_udp udp-6a77b4cf-b55a-4328-944f-e3ba938ccdfe 10042 127.0.0.1 10043 
+Nov 08 01:45:34.933 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-6a77b4cf-b55a-4328-944f-e3ba938ccdfe 
+Nov 08 01:45:34.934 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 08 01:45:34.934 HYPERVISOR: exec_cmd: vm slot_enable_nio R3 0 0 
+Nov 08 01:45:37.222 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 08 01:57:37.530 HYPERVISOR: exec_cmd: vm extract_config R3 

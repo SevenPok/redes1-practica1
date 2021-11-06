@@ -1,0 +1,60 @@
+Nov 07 22:13:17.831 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 22:13:17.832 HYPERVISOR: Started on IP = localhost, TCP port = 64619.
+Nov 07 22:13:18.328 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 22:13:18.328 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips 
+Nov 07 22:13:18.328 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips
+Nov 07 22:13:18.329 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\6baf02f0-547d-4204-86e0-12f6b5b3c253 
+Nov 07 22:13:18.329 GENERAL: working_dir=C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\6baf02f0-547d-4204-86e0-12f6b5b3c253
+Nov 07 22:13:18.330 HYPERVISOR: exec_cmd: vm create R6 6 c3725 
+Nov 07 22:13:18.332 VM: VM R6 created.
+Nov 07 22:13:18.333 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5007 
+Nov 07 22:13:18.333 HYPERVISOR: exec_cmd: c3725 get_mac_addr R6 
+Nov 07 22:13:18.334 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:18.335 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Nov 07 22:13:18.335 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Nov 07 22:13:18.336 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Nov 07 22:13:18.439 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:26.190 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:13:47.422 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 07 22:13:47.422 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-16ESW 
+Nov 07 22:13:47.423 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 07 22:13:47.423 HYPERVISOR: exec_cmd: vm slot_add_binding R6 2 0 NM-4T 
+Nov 07 22:14:30.331 HYPERVISOR: exec_cmd: nio create_udp udp-a6888133-a13e-4c21-806e-388adcd0df84 10002 127.0.0.1 10003 
+Nov 07 22:14:30.594 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-a6888133-a13e-4c21-806e-388adcd0df84 
+Nov 07 22:14:30.594 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 07 22:15:44.917 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:16:04.806 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Nov 07 22:16:04.808 VM: VM Ghost created.
+Nov 07 22:16:04.809 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:16:04.810 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 07 22:16:04.810 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Nov 07 22:16:04.811 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 07 22:16:05.037 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 07 22:16:05.037 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 07 22:16:06.466 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 07 22:16:06.468 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 07 22:16:06.578 VM: VM Ghost shutdown.
+Nov 07 22:16:06.579 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 07 22:16:06.582 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 07 22:16:06.582 VM: VM Ghost destroyed.
+Nov 07 22:16:06.627 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Nov 07 22:16:06.628 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\l4kz4\GNS3\projects\proyecto2_topologia1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Nov 07 22:16:06.628 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 07 22:16:06.629 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Nov 07 22:16:06.629 HYPERVISOR: exec_cmd: vm start R6 
+Nov 07 22:16:37.071 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 07 22:16:37.083 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 07 22:18:10.628 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/l4kz4/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 07 22:18:15.605 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 07 22:18:15.605 HYPERVISOR: exec_cmd: vm slot_disable_nio R6 1 0 
+Nov 07 22:18:15.618 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R6 1 0 
+Nov 07 22:18:15.620 HYPERVISOR: exec_cmd: nio delete udp-a6888133-a13e-4c21-806e-388adcd0df84 
+Nov 07 22:18:16.174 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 07 22:18:16.174 HYPERVISOR: exec_cmd: vm stop R6 
+Nov 07 22:18:16.286 VM: VM R6 shutdown.
+Nov 07 22:18:16.287 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 07 22:18:16.290 HYPERVISOR: exec_cmd: vm delete R6 
+Nov 07 22:18:16.290 VM: VM R6 destroyed.
+Nov 07 22:18:16.291 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 22:18:16.438 HYPERVISOR: Stopped.
+Nov 07 22:18:16.438 GENERAL: reset done.
