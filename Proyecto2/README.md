@@ -23,11 +23,11 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 
 # Topología 1
 
-![Topologia 1](./images/Topologia1.jpeg)
+![Topologia 1](images/Topologia1.jpeg)
 
 ## Subnetting
 
-![Subnetting 1](./images/Subnetting1.jpeg)
+![Subnetting 1](images/Subnetting1.jpeg)
 
 ## Configuracion rutas estaticas
 
@@ -47,51 +47,51 @@ Algunos requerimientos para ejecutar los archivos de GNS3 son:
 
 # Topología 2
 
-![Topologia 2](./images/Topologia2.jpeg)
+![Topologia 2](images/Topologia2.jpeg)
 
 ## Subnetting
 
-![Subnetting 2](./images/Subnetting2.jpeg)
+![Subnetting 2](images/Subnetting2.jpeg)
 
 ## Pings
 ---
 ### Ping Conta 1 a Servidor Conta
 
-![Ping conta 1 a server](./images/tp2_contabilidad_a_servidor.jpeg)
+![Ping conta 1 a server](images/tp2_contabilidad_a_servidor.jpeg)
 
 ### Ping Recursos Humanos 1 a Servidor Recursos Humanos
 
-![Ping recursos humanos 1 a server](./images/tp2_rrhh_a_servidor.jpeg)
+![Ping recursos humanos 1 a server](images/tp2_rrhh_a_servidor.jpeg)
 
 ### Ping Ventas 1 a Servidor web
 
-![Ping ventas 1 a servidor](./images/tp2_ventas_a_servidor.jpeg)
+![Ping ventas 1 a servidor](images/tp2_ventas_a_servidor.jpeg)
 
 ### Ping Informatica a Servidor DB
 
-![Ping ventas 2 a servidor](./images/tp2_informatica_a_servidor.jpeg)
+![Ping ventas 2 a servidor](images/tp2_informatica_a_servidor.jpeg)
 
 # Topología 3
 
-![Topologia 3](./images/Topologia3.jpeg)
+![Topologia 3](images/Topologia3.jpeg)
 
 ## Configuracion de VLAN
 
-![vlan-topo2](./images/vlan-topo2.jpg)
+![vlan-topo2](images/vlan-topo2.jpg)
 
 ## Subnetting
 
-![Subnetting 3](./images/Subnetting3.jpeg)
+![Subnetting 3](images/Subnetting3.jpeg)
 
 ## Pings
 ---
 ### Ping Servidor Recursos Humanos
 
-![Ping Servidor RH a RH](./images/Ping_BD_Informatica.jpg)
+![Ping Servidor RH a RH](images/Ping_BD_Informatica.jpg)
 
 ### Ping Servidor DB a Infomatica
 
-![Ping Server DB a informatica](./images/Ping_server_rh_rh.jpg)
+![Ping Server DB a informatica](images/Ping_server_rh_rh.jpg)
 
 
 # Comandos Utilizados
